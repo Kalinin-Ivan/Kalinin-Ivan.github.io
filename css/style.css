@@ -1,0 +1,60 @@
+.class_link_in_mine {
+    width:					160px;
+    height:					20px;
+    background-color:		#984701;
+    border:                 5px outset #691e02;
+    color:                  white;
+    font-size:              15px;
+}
+
+.class_link_in_mine:hover {
+    background-color:		#984701;
+    color:                  #b9b7b7;
+    width:                  170px;
+}
+
+.text {
+    text-align:             center;
+    display:                block;
+    border:                3px dotted brown;
+}
+
+.zagolovock {
+    text-align:             center;
+    font-size:              30pt;
+    font-variant:           small-caps;
+    margin-top:             20px;
+    vertical-align:         middle;
+}
+
+BODY {
+    background:             url(../img/unnamed.png);
+}
+
+
+td , th {
+    border:                 1px solid black;
+    width:                  10%;
+    height:                 10%;
+    padding:                2px;
+}
+
+table {
+    border:                 5px double #350404;
+    height:                 50%;
+}
+
+.img_in_table {
+    height:                55px;
+    width:                 75px;
+    border:                1px solid black;
+}
+
+input, textarea {
+    background-color:      #691e02;
+    border:                3px dotted brown;
+}
+
+.z:invalid {
+    background-color:      red;
+}

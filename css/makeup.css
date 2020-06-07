@@ -1,13 +1,16 @@
 #basic{
 	position:				relative;
-	width:					80%;
+	width:					90%;
 	margin:					auto;
 	height:                 100%;
 }
 
 #header{
 	height:					100px;
-	background-color:		#faa;
+	background-color:		#691e02;
+	/*margin-top: 			-40px;*/
+	border: 				1px solid black;
+	overflow-y:				hidden;
 }
 
 #container{
@@ -15,10 +18,10 @@
 	/*
 	background-color:		#eee;
 	display:                flex; */
-	background-color:		#afa;
+	background-color:		#691e02;
 	flex-direction:         row;
 	align-items:            start;
-
+	padding: 				0px 182px;
 }
 
 #footer{
@@ -26,40 +29,48 @@
 	bottom:					0;
 	height:					80px;
 	width:					100%;
-	background-color:		#aaf;
+	background-color:		#691e02;
+	border: 				1px solid black;
+	margin-bottom: 			-100px;
 }
 
 #content{
 	/*width:					100%;*/
 	min-width:              5%;
-	background-color:		broun;
+	background-color:		#691e02;
 	/* order:                  2; */
-	min-height:                 500px;
+	min-height:             500px;
 	height:                 100%;
-	float:left;
+	float:					left;
+	padding: 				10px;
+	overflow-y: 			hidden;
 }
 
 #left_column{
 	right:					612px;	/*ширина контента*/
 	max-width:				200px;
-	width:                  200px;
-	min-width:              200px;
-	background-color:		orange;
+	width:                  180px;
+	min-width:              180px;
+	background-color:		#691e02;
 	/* order:                  1; */
 	min-height:             500px;
-	height:                 100%;
-	float:left;
+	height:                 725px;
+	float:					left;
+	border:					1px solid black;
+	margin-left: 			-182px;
 }
 
 #right_column{
 	max-width:				200px;
-	width:                  200px;/*250px;*/
-	min-width:              200px;
+	width:                  180px;/*250px;*/
+	min-width:              180px;
 	/*margin-right:			-190px;*/
-	background-color:		#ff8;
+	background-color:		#691e02;
 	/* order:                  3; */
-	height:                 500px;
-	float:right;
+	height:                 725px;
+	float:					right;
+	border:					1px solid black;
+	margin-right: 			-182px;
 }
 
 HTML > BODY #basic{/* IE7 и остальные*/
@@ -70,7 +81,7 @@ HTML > BODY #basic{/* IE7 и остальные*/
 BODY{
 	margin:					0;
 	padding:				0;
-	background-color:		#555;
+	/*background-color:		#fff250;*/
 }
 
 HTML, BODY, #basic{
